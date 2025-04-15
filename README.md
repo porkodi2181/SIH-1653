@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 15.04.2025
+## Register Number:212224240114
+## Name:Porkodi B
 ## Problem Title
 SIH 1653: Web based Selector-Applicant Simulation Software
 ## Problem Description
@@ -11,16 +11,65 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 Ministry of Defence
 
 ## Idea
+The solution should automate and enhance this process by creating a real-world interview with the following key components:
+
+1.Question Relevance: Questions must be aligned with the expertise of the candidate.
+
+2.Response Evaluation: Responses should be evaluated for relevancy and quality.
+
+3.Scoring System: Both questions and responses should be assigned relevance scores, contributing to an overall score reflecting the candidate’s knowledge.
+
+4.Real-time Experience: Simulating a real-life interview experience with ice-breaker questions, followed by in-depth techno-managerial questions based on the candidate's role.
+
+5.Final Score: A quantifiable score to determine the candidate's suitability for the advertised post.
 
 
 ## Proposed Solution / Architecture Diagram
+![Screenshot 2025-04-15 103458](https://github.com/user-attachments/assets/b66a6772-a095-4e0d-8244-84bdaaeb8929)
 
 
 ## Use Cases
 
+![Screenshot 2025-04-15 103529](https://github.com/user-attachments/assets/6ff42d08-6f84-42bc-8156-4776132d6454)
 
 ## Technology Stack
+1)Frontend: Framework: React.js, Angular, or Vue.js for building dynamic user interfaces.
 
+UI Components: Material-UI, Bootstrap, or TailwindCSS for fast, responsive UI.
 
+Real-time Communication: WebRTC for video/audio integration.
+
+2)Backend:
+
+Web Framework: Node.js with Express.js or Python with Django/Flask.
+
+Database: PostgreSQL or MySQL for storing interview data, responses, and scoring.
+
+Authentication: JWT for secure login/authentication.
+
+Real-time Communication: Socket.io or Django Channels for handling real-time interactions between interviewer and candidate.
+
+3)AI/NLP:
+
+NLP Models: Analyzing candidate responses and scoring based on relevancy.
+
+Libraries: spaCy or NLTK for text preprocessing.
+
+4)Deployment:
+
+Cloud Hosting: AWS, Google Cloud, or Azure for hosting the application.
+
+Containers: Docker for containerization, making the system portable and scalable.
+
+CI/CD: GitHub Actions or Jenkins for continuous integration and deployment.
 ## Dependencies
+1.Frontend: React.js or Vue.js, Material-UI or Tailwind CSS, WebRTC, Redux or Context API, and Socket.io for real-time communication.
+
+2.Backend: Node.js/Express.js or Python/Django, PostgreSQL or MySQL, JWT/OAuth for authentication, and Socket.io for real-time interactions.
+
+3.AI/NLP: Hugging Face Transformers (BERT, GPT), spaCy, or NLTK for analyzing responses.
+
+4.Deployment: AWS, Google Cloud, or Azure, Docker for containerization, and CI/CD tools like GitHub Actions.
+
+5.Testing: Jest, Mocha, PyTest for unit testing and Cypress/Selenium for end-to-end testing.
 
